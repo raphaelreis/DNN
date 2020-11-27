@@ -1,0 +1,39 @@
+{
+    
+    "Dataset1": "bc",
+    "TrainSet1": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/breast_cancer/bcw_train_n.csv",
+    "TestSet1": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/breast_cancer/bcw_test_n.csv",
+    
+
+    "Dataset2": "mnist",
+    "TrainSet2": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/mnist/preprocessed/normalized/mnist_train_norm.csv",
+    "TestSet2": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/mnist/preprocessed/normalized/mnist_test_norm.csv",
+    
+    "TrainSet3": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/mnist/mnist_reduce.csv",
+    "TestSet3" : "/Users/Raphael/go/src/github.com/ldsec/spindle/data/mnist/mnist_reduce.csv",
+
+    "Dataset": "diabete",
+    "TrainSet": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/diabete/diabetic_data_train.csv",
+    "TestSet": "/Users/Raphael/go/src/github.com/ldsec/spindle/data/diabete/diabetic_data_test.csv",
+
+    "NClass": 2,
+
+    "FailureRate": 0,
+
+    "ExpRep": 10,
+    "NodeNumber": 10,
+    "MaxIteration": 10,
+    "Epochs": 10,
+    "BatchSize": 128,
+
+    "VerboseTrain": 0,
+    "InputSize": 140,
+    "Layout": [64, 64, 2],
+    "Activation": "Sigmoid",
+    "ActivationType": "Standard",
+
+    "LearningRate": 0.01,
+    "Momentum": 0.5,
+    "Decay": 1e-6,
+    "Nesterov": false
+}
